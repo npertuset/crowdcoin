@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import { Container } from "semantic-ui-react";
 import Header from "./Header";
+import Network from "./Network";
 
 export default (props) => {
   return (
@@ -15,6 +16,7 @@ export default (props) => {
       </Head>
 
       <Header />
+      <Network />
       {props.children}
     </Container>
   );
